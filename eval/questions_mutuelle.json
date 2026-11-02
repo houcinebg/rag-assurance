@@ -1,0 +1,463 @@
+[
+ {
+  "id": 1,
+  "q": "Je me fais voler mon vélo dans le local commun de l'immeuble, qui n'était pas fermé à clé. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 7"
+  ],
+  "pourquoi": "Art. 7: exclus les vols d'objets déposés dans des locaux à usage collectif."
+ },
+ {
+  "id": 2,
+  "q": "On m'a volé mon vélo dans le local à vélos de l'immeuble. La porte était fermée à clé et a été forcée. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 7"
+  ],
+  "pourquoi": "Même avec effraction, art. 7 exclut les objets déposés dans des locaux à usage collectif."
+ },
+ {
+  "id": 3,
+  "q": "Un cambrioleur a forcé la porte de mon appartement pendant mon absence et volé mon ordinateur. Suis-je couvert ?",
+  "verdict": "couvert",
+  "articles": [
+   "Article 7"
+  ],
+  "pourquoi": "Art. 7 B: effraction / forcement des serrures des bâtiments assurés."
+ },
+ {
+  "id": 4,
+  "q": "Je suis parti travailler en laissant une fenêtre ouverte et on m'a volé ma télévision, sans aucune effraction. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 7"
+  ],
+  "pourquoi": "Art. 7: mesure de prévention (fermer les fenêtres), aucune indemnité si non respectée."
+ },
+ {
+  "id": 5,
+  "q": "J'ai simplement claqué ma porte sans la verrouiller à clé; un voleur est entré sans rien forcer et a pris mon ordinateur. Est-ce couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 7"
+  ],
+  "pourquoi": "Art. 7: obligation d'utiliser les moyens de fermeture (serrures, verrous); pas d'effraction."
+ },
+ {
+  "id": 6,
+  "q": "J'avais laissé mes clés sous le paillasson et un voleur les a utilisées pour entrer chez moi. Suis-je indemnisé ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 7"
+  ],
+  "pourquoi": "Art. 7: exclusion pour négligence manifeste (clés laissées à l'extérieur)."
+ },
+ {
+  "id": 7,
+  "q": "Un faux agent est entré chez moi par ruse alors que j'étais présent et a volé mon ordinateur portable. Suis-je couvert ?",
+  "verdict": "couvert",
+  "articles": [
+   "Article 7"
+  ],
+  "pourquoi": "Art. 7 B: introduction par ruse alors que l'assuré est présent."
+ },
+ {
+  "id": 8,
+  "q": "Mes bijoux en or ont été volés dans le garage attenant à ma maison après effraction de la porte. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 7"
+  ],
+  "pourquoi": "Art. 7: exclus les biens précieux placés dans les dépendances et annexes."
+ },
+ {
+  "id": 9,
+  "q": "Mon conjoint m'a volé de l'argent et des objets dans la maison. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 7"
+  ],
+  "pourquoi": "Art. 7: exclus les vols commis par le conjoint, ascendants, descendants."
+ },
+ {
+  "id": 10,
+  "q": "Mon sous-locataire m'a volé ma télévision et j'ai déposé plainte contre lui. Suis-je couvert ?",
+  "verdict": "ambigu",
+  "articles": [
+   "Article 7"
+  ],
+  "pourquoi": "Art. 7: exclusion levée si plainte, mais les circonstances de la garantie (effraction, etc.) ne sont pas précisées."
+ },
+ {
+  "id": 11,
+  "q": "Je suis absent depuis 80 jours de ma résidence principale. Un cambrioleur a forcé la porte. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 7"
+  ],
+  "pourquoi": "Art. 7: garantie suspendue à partir du 61e jour d'inoccupation (sauf clause 14A)."
+ },
+ {
+  "id": 12,
+  "q": "Mon appartement est ma résidence secondaire, je n'y suis pas depuis deux mois et il a été cambriolé avec effraction. Suis-je couvert ?",
+  "verdict": "ambigu",
+  "articles": [
+   "Article 7"
+  ],
+  "pourquoi": "Art. 7: suspendue en inoccupation sauf clause 14; l'occupation et la clause souscrite ne sont pas précisées."
+ },
+ {
+  "id": 13,
+  "q": "Je suis parti trois jours en laissant tous mes volets ouverts alors que j'en ai, et j'ai été cambriolé avec effraction. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 7"
+  ],
+  "pourquoi": "Art. 7: au-delà de 24 h d'inoccupation, utiliser tous les moyens de protection existants (volets...)."
+ },
+ {
+  "id": 14,
+  "q": "On a volé mon vélo posé dans le jardin devant ma maison. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 7"
+  ],
+  "pourquoi": "Art. 7: exclus les objets déposés dans les cours et jardins."
+ },
+ {
+  "id": 15,
+  "q": "On a forcé la porte du garage privatif de ma maison et volé mon vélo. Suis-je couvert ?",
+  "verdict": "couvert",
+  "articles": [
+   "Article 1",
+   "Article 7"
+  ],
+  "pourquoi": "Art. 1 (annexes assurées) et art. 7 B (effraction). À vérifier: définition d'annexe au glossaire."
+ },
+ {
+  "id": 16,
+  "q": "On m'a volé mes clés lors d'un cambriolage avec effraction. Le remplacement de mes serrures est-il remboursé ?",
+  "verdict": "couvert",
+  "articles": [
+   "Article 7"
+  ],
+  "pourquoi": "Art. 7: remplacement à l'identique des serrures après vol des clés, sur justificatifs."
+ },
+ {
+  "id": 17,
+  "q": "Des tags ont été faits sur la façade extérieure de ma maison; j'ai déposé plainte le jour même et j'ai le Pack Tranquillité. Suis-je couvert ?",
+  "verdict": "couvert",
+  "articles": [
+   "Article 33"
+  ],
+  "pourquoi": "Art. 33 A5: vandalisme extérieur avec plainte dans les 24 h."
+ },
+ {
+  "id": 18,
+  "q": "Des tags ont été faits sur le mur extérieur de ma maison et je n'ai pas souscrit le Pack Tranquillité. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 7",
+   "Article 33"
+  ],
+  "pourquoi": "Art. 7: vandalisme extérieur garanti seulement par le Pack Tranquillité."
+ },
+ {
+  "id": 19,
+  "q": "Je me suis fait agresser dans la rue et on m'a volé mon sac à main et mon téléphone. Suis-je couvert ?",
+  "verdict": "couvert",
+  "articles": [
+   "Article 26"
+  ],
+  "pourquoi": "Art. 26 B: vol par agression des effets personnels, bagages à main, téléphonie."
+ },
+ {
+  "id": 20,
+  "q": "On m'a volé mon téléphone dans le métro, sans violence, par un pickpocket. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 26"
+  ],
+  "pourquoi": "Art. 26 B: seulement le vol par agression."
+ },
+ {
+  "id": 21,
+  "q": "Lors d'une agression dans la rue, on m'a volé mon passeport. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 26"
+  ],
+  "pourquoi": "Art. 26 B: documents administratifs exclus."
+ },
+ {
+  "id": 22,
+  "q": "Lors d'une agression dans la rue, on m'a volé ma montre en or. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 26"
+  ],
+  "pourquoi": "Art. 26 B: objets de valeur et biens précieux exclus."
+ },
+ {
+  "id": 23,
+  "q": "Ma valise a été volée dans ma chambre d'hôtel pendant mes vacances, la porte avait été forcée. Suis-je couvert ?",
+  "verdict": "ambigu",
+  "articles": [
+   "Article 26",
+   "Article 7"
+  ],
+  "pourquoi": "Art. 26 A: garantie hors domicile pour sinistres garantis du chapitre 2, mais l'art. 7 vise les bâtiments assurés."
+ },
+ {
+  "id": 24,
+  "q": "J'ai déclaré mon vol quatre jours ouvrés après l'avoir découvert. Mon dossier peut-il être refusé ?",
+  "verdict": "ambigu",
+  "articles": [
+   "Article 49"
+  ],
+  "pourquoi": "Art. 49: délai de 2 jours ouvrés; déchéance seulement si l'assureur prouve un préjudice."
+ },
+ {
+  "id": 25,
+  "q": "Je n'ai pas déposé plainte dans les 24 heures après le vol. Suis-je quand même indemnisé ?",
+  "verdict": "ambigu",
+  "articles": [
+   "Article 49"
+  ],
+  "pourquoi": "Art. 49: plainte sous 24 h; sanction proportionnelle au préjudice causé, non automatique."
+ },
+ {
+  "id": 26,
+  "q": "J'ai déclaré mon dégât des eaux sept jours ouvrés après les faits. Suis-je encore couvert ?",
+  "verdict": "ambigu",
+  "articles": [
+   "Article 49"
+  ],
+  "pourquoi": "Art. 49: délai de 5 jours ouvrés; déchéance si préjudice (L113-2)."
+ },
+ {
+  "id": 27,
+  "q": "J'ai volontairement exagéré le montant de mes dommages dans ma déclaration. Serai-je indemnisé pour ce sinistre ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 49"
+  ],
+  "pourquoi": "Art. 49: déchéance de tout droit à garantie en cas de déclaration sciemment exagérée."
+ },
+ {
+  "id": 28,
+  "q": "Un incendie avec flammes a détruit ma cuisine. Suis-je couvert ?",
+  "verdict": "couvert",
+  "articles": [
+   "Article 4"
+  ],
+  "pourquoi": "Art. 4: incendie."
+ },
+ {
+  "id": 29,
+  "q": "La foudre est tombée et a grillé ma télévision achetée il y a trois ans. Suis-je couvert ?",
+  "verdict": "couvert",
+  "articles": [
+   "Article 5"
+  ],
+  "pourquoi": "Art. 5: foudre, appareils jusqu'à 10 ans révolus."
+ },
+ {
+  "id": 30,
+  "q": "Une surtension a grillé ma télévision qui a douze ans. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 5"
+  ],
+  "pourquoi": "Art. 5: appareils jusqu'à 10 ans révolus."
+ },
+ {
+  "id": 31,
+  "q": "J'ai laissé un fer à repasser sur ma planche, il a brûlé mon parquet sans qu'il y ait de flammes. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 4",
+   "Article 33"
+  ],
+  "pourquoi": "Art. 4: chaleur sans flammes exclue; art. 33: dommages de repassage exclus même avec le pack."
+ },
+ {
+  "id": 32,
+  "q": "Une explosion de gaz a endommagé mon salon. Suis-je couvert ?",
+  "verdict": "couvert",
+  "articles": [
+   "Article 4"
+  ],
+  "pourquoi": "Art. 4: explosion."
+ },
+ {
+  "id": 33,
+  "q": "Ma machine à laver a débordé et abîmé le sol de ma cuisine. Suis-je couvert ?",
+  "verdict": "couvert",
+  "articles": [
+   "Article 8"
+  ],
+  "pourquoi": "Art. 8: fuite ou débordement accidentel d'appareils à effet d'eau."
+ },
+ {
+  "id": 34,
+  "q": "Une canalisation fuyait depuis plusieurs mois, je le savais mais n'ai rien réparé, et elle a abîmé mon mur. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 8"
+  ],
+  "pourquoi": "Art. 8: exclus les dommages dus à une fuite non réparée dans les 30 jours."
+ },
+ {
+  "id": 35,
+  "q": "Ma cave est inondée après le débordement d'une rivière. Suis-je couvert ?",
+  "verdict": "ambigu",
+  "articles": [
+   "Article 8",
+   "Article 10",
+   "Article 41"
+  ],
+  "pourquoi": "Art. 8/41: inondation exclue sauf catastrophe naturelle (art. 10, arrêté préalable non connu)."
+ },
+ {
+  "id": 36,
+  "q": "Des moisissures ont envahi mon salon. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 41"
+  ],
+  "pourquoi": "Art. 41: moisissures exclues."
+ },
+ {
+  "id": 37,
+  "q": "Une tempête a arraché des tuiles de mon toit et plusieurs maisons de la commune ont aussi été endommagées. Suis-je couvert ?",
+  "verdict": "couvert",
+  "articles": [
+   "Article 9"
+  ],
+  "pourquoi": "Art. 9: vent d'intensité telle que plusieurs bâtiments de la commune sont touchés."
+ },
+ {
+  "id": 38,
+  "q": "Un vent assez fort a arraché une tuile de mon toit; aucune autre maison de la commune n'a été touchée. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 9"
+  ],
+  "pourquoi": "Art. 9: condition d'intensité exceptionnelle non remplie."
+ },
+ {
+  "id": 39,
+  "q": "Une tempête a abîmé mon toit, qui avait un trou que je connaissais depuis trois mois sans l'avoir réparé. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 9"
+  ],
+  "pourquoi": "Art. 9: exclus trou préexistant non réparé dans les 30 jours."
+ },
+ {
+  "id": 40,
+  "q": "Ma table de jardin a été brisée par une tempête qui a aussi endommagé plusieurs maisons de la commune. J'ai le Pack Jardin Plein Air. Suis-je couvert ?",
+  "verdict": "couvert",
+  "articles": [
+   "Article 34",
+   "Article 9"
+  ],
+  "pourquoi": "Art. 34: meubles de jardin garantis contre le vent; art. 9: intensité."
+ },
+ {
+  "id": 41,
+  "q": "Ma table de jardin a été brisée par une tempête et je n'ai pas souscrit le Pack Jardin Plein Air. Suis-je couvert ?",
+  "verdict": "ambigu",
+  "articles": [
+   "Article 34",
+   "Article 9"
+  ],
+  "pourquoi": "Les biens en plein air relèvent du pack (art. 34); le contrat ne dit pas clairement le sort hors pack."
+ },
+ {
+  "id": 42,
+  "q": "Une bougie sur la table de mon jardin a fondu avec la chaleur pendant mes vacances et a abîmé la table. Est-ce couvert ?",
+  "verdict": "ambigu",
+  "articles": [
+   "Article 4",
+   "Article 33",
+   "Article 34"
+  ],
+  "pourquoi": "Chaleur sans flammes exclue (art. 4) sauf pack (art. 33); biens de jardin selon le pack art. 34; options non précisées."
+ },
+ {
+  "id": 43,
+  "q": "On a volé mon salon de jardin dans mon jardin, sans aucun bris ni effraction. J'ai le Pack Jardin Plein Air. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 34",
+   "Article 7"
+  ],
+  "pourquoi": "Art. 34: vol garanti seulement avec bris, démontage ou effraction des fixations; art. 7: jardins exclus."
+ },
+ {
+  "id": 44,
+  "q": "Mon fils a cassé accidentellement la vitre d'une fenêtre avec un ballon. Suis-je couvert ?",
+  "verdict": "couvert",
+  "articles": [
+   "Article 6"
+  ],
+  "pourquoi": "Art. 6: bris accidentel des vitres de fenêtres."
+ },
+ {
+  "id": 45,
+  "q": "L'écran de ma télévision s'est brisé quand il est tombé. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 6"
+  ],
+  "pourquoi": "Art. 6: bris des écrans de téléviseurs exclu sauf clause D43."
+ },
+ {
+  "id": 46,
+  "q": "Mon fils mineur a rayé la voiture d'un voisin avec son vélo. Suis-je couvert ?",
+  "verdict": "couvert",
+  "articles": [
+   "Article 13"
+  ],
+  "pourquoi": "Art. 13: RC vie privée, enfants mineurs et cycles."
+ },
+ {
+  "id": 47,
+  "q": "Je me suis blessé en parapente et j'ai blessé un tiers à l'atterrissage. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 13"
+  ],
+  "pourquoi": "Art. 13: sports aériens, y compris parapente, exclus."
+ },
+ {
+  "id": 48,
+  "q": "J'ai cassé volontairement la fenêtre de mon salon. Mon assurance paie-t-elle ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 41"
+  ],
+  "pourquoi": "Art. 41: dommages intentionnels exclus."
+ },
+ {
+  "id": 49,
+  "q": "Mon logement a été endommagé par des faits de guerre. Suis-je couvert ?",
+  "verdict": "non_couvert",
+  "articles": [
+   "Article 41"
+  ],
+  "pourquoi": "Art. 41: guerre étrangère ou civile exclue."
+ },
+ {
+  "id": 50,
+  "q": "Après un incendie garanti, je dois quitter mon logement et loger à l'hôtel. Mes frais sont-ils pris en charge ?",
+  "verdict": "couvert",
+  "articles": [
+   "Article 23"
+  ],
+  "pourquoi": "Art. 23: perte d'usage, frais de relogement après un sinistre garanti."
+ }
+]

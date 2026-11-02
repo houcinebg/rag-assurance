@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse de sinistre - Assurance Habitation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mon sinistre est-il couvert ?</h1>
+        <p>Analyse par IA des conditions generales, avec citations verifiees.</p>
+    </header>
+
+    <main>
+        <section class="input-section">
+            <textarea id="question" rows="3" placeholder="Decrivez votre sinistre..."></textarea>
+            <div class="examples">
+                <button onclick="setQuestion('Je me fais voler mon velo dans le local commun de l\'immeuble, qui n\'etait pas ferme a cle. Suis-je couvert ?')">Vélo local commun (non couvert)</button>
+                
+                <button onclick="setQuestion('Une bougie sur la table de mon jardin a fondu avec la chaleur pendant mes vacances et a abime la table. Est-ce couvert ?')">Bougie sur table</button>
+                
+                <button onclick="setQuestion('La foudre est tombee et a grille ma television achetee il y a trois ans. Suis-je couvert ?')">Foudre sur TV</button>
+                
+                <button onclick="setQuestion('On a force la porte de mon garage privatif et vole mon velo. Suis-je couvert ?')">Vol dans garage fermé</button>
+
+                <button onclick="setQuestion('J\'ai brule ma cuisine en faisant expres de mettre le feu. Suis-je couvert ?')">Incendie volontaire</button>
+            </div>
+            <button id="submit-btn" onclick="submitQuestion()">Analyser</button>
+        </section>
+
+        <section id="result-section" class="hidden">
+            <div id="verdict-badge" class="badge"></div>
+            <div class="card">
+                <h3>Pourquoi ?</h3>
+                <p id="raisonnement"></p>
+            </div>
+
+            <div id="missing-info-container" class="card hidden">
+                <h3>Ce que le gestionnaire doit demander a l'assure</h3>
+                <ul id="infos-manquantes"></ul>
+            </div>
+
+            <div class="card">
+                <h3>Clauses sur lesquelles la reponse s'appuie</h3>
+                <div id="citations"></div>
+            </div>
+
+            <details id="tech-details">
+                <summary>Details techniques (recherche, score)</summary>
+                <pre id="tech-content"></pre>
+            </details>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
