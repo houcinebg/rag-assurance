@@ -2,6 +2,4 @@ __pycache__/
 *.pyc
 .venv
 legacy/
-eval/cache_*.jsonl
-eval/report_*.md
 *.db

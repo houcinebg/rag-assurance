@@ -102,8 +102,15 @@ def _json(raw: str):
     clean = re.sub(r"^```(?:json)?|```$", "", raw.strip(), flags=re.M).strip()
     try:
         return json.loads(clean)
-    except json.JSONDecodeError as e:
-        raise ValueError(f"réponse du modèle non exploitable ({e}). Début reçu: {raw[:200]!r}") from e
+    except json.JSONDecodeError:
+        # Si le LLM a ajouté du texte, on extrait juste la partie entre { et }
+        match = re.search(r'\{.*\}', clean, re.DOTALL)
+        if match:
+            try:
+                return json.loads(match.group(0))
+            except json.JSONDecodeError:
+                pass
+        raise ValueError(f"réponse du modèle non exploitable. Début reçu: {raw[:200]!r}")
 
 
 def _call(system: str, user: str, obj: bool = False) -> str:
